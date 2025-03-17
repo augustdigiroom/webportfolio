@@ -12,6 +12,12 @@ body {
     background:white;
 }
 
+.navbar-brand {
+    color: #92278F !important;
+    font-weight: bold;
+}
+
+
 .rounded-photo {
     border-radius: 50%; 
     width: 100px;  
@@ -25,7 +31,7 @@ body {
     font-weight: 600;
     line-height: 40px;
     
-    color:#046b27;
+    color:#92278F;
 }
 
 .description {
@@ -44,11 +50,11 @@ body {
     font-style: italic;
     line-height: 40px;
     
-    color:#046b27;
+    color:#92278F;
 }
 
 .form-background {
-    background-color: #046b27
+    background-color: black;
 }
 
 .btn-green {

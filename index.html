@@ -15,23 +15,20 @@
 	<!-- CSS Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="./style.css">
 
-	<title>Augustine Grepo - Full Stack Developer</title>
+	<title>Augustine Grepo - Full Stack Web Developer</title>
 </head>
 <body>
 
 	<nav class="navbar navbar-expand-lg navbar-light nav-color sticky-top">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#">Augustine Grepo</a>
+			<a class="navbar-brand" href="#">Augustine Grepo Portfolio</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ms-auto">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#home">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="landing">About</a>
+						<a class="nav-link active" aria-current="page" href="#landing">Home</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#projects">Projects</a>
@@ -40,7 +37,10 @@
 						<a class="nav-link" href="#tools">Tools</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#contact">Contact</a>
+						<a class="nav-link" href="#aboutme">About Me</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#resume">Curriculum Vitae</a>
 					</li>
 				</ul>
 			</div>
@@ -49,22 +49,41 @@
 	<!-- Navbar Section End -->
 
 	<!-- Landing Section Start -->
-	<div id="landing" class="container-fluid py-5 form-background text-white">
-		<div class="row justify-content-md-center justify-content-lg-start py-5 mx-5 text-sm-start">
-			<div class="col-md-6 py-2">
-				<img src="./images/august.jpg" class="img-fluid rounded-circle"/>
-			</div>
-			<div class="col-md-6 description">
-				<h1 id="head-title" class="text-center mb-3 text-white">Augustine Grepo</h1>
-				<h1 id="head-title" class="text-center mb-3 text-white"> Full Stack Developer </h1>
-				<p> August is a dedicated and versatile professional with over 10 years of experience as a virtual assistant specializing in graphic design, video editing, and content creation. His expertise spans a wide array of creative projects, from designing visually appealing graphics to producing high-quality videos that capture attention and communicate effectively. August's skill set makes him an invaluable asset to businesses and individuals seeking creative solutions that resonate with their audience. <p>
+<div id="landing" class="container-fluid py-5 form-background text-white">
+    <div class="row justify-content-md-center justify-content-lg-start align-items-center text-sm-start" style="height: 100vh;">
+        
+        <div class="col-md-6 description">
+            <h1 id="head-title" class="text-center mb-3 text-white">Hello! I am August!</h1>
+            <h1 id="head-title" class="text-center mb-3 text-white">A Full Stack Web Developer</h1>
+            <h1 id="head-title" class="text-center mb-3 text-white">Graphic Designer & Video Editor</h1>
+        </div>
 
-				<p> Recognizing the ever-evolving nature of the digital world, August is currently pursuing studies in full stack web development as part of his upskilling journey. With a strong passion for technology and a desire to grow, he aims to transition into a Full Stack Web Developer role. This step not only enhances his capabilities but also opens doors to broader opportunities in the tech industry, where he plans to merge his creative background with his technical expertise.<p>
+        <div class="col-md-6 py-2">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/homeslide-01.png" class="d-block w-100" alt="Full Stack Web Developer">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/homeslide-02.png" class="d-block w-100" alt="Graphic Designer">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/homeslide-03.png" class="d-block w-100" alt="Video Editor">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 
-				<p> Beyond his professional pursuits, August is a full-time vlogger, capturing the vibrant essence of life around him. In his free time, he immerses himself in documenting and sharing unique experiences through his channel. His content includes festival celebrations, colorful parades, insightful bus reviews, and engaging walking tours. With a keen eye for detail and a knack for storytelling, August brings these moments to life, offering his audience a window into diverse cultures, transportation experiences, and scenic explorations.</p>
-			</div>
-		</div>
-	</div>
 	<!-- Landing Section End -->
 
 	<!-- Project Section Start -->
@@ -73,99 +92,229 @@
             <h3 id ="head-title" class="text-center">Projects</h3>
 
             <!-- Projects Start -->
-            <div class="d-flex row flex-row-reverse justify-content-around description py-5">
+          <div class="row d-flex flex-lg-row flex-column justify-content-around description py-3">
 
-                <!-- Pacific Linen Start -->
-                <div id="pacificlinens" class="col-md-3 col-sm-4 text-center m-2">
-                    <img class="img-fluid" src="./images/project1.jpg">
-                    <h5 id="semi-title">Pacific Linens</h5>
-                    <p>Pacific Linens offers high-quality bathroom mats crafted from 100% premium cotton, ensuring softness and maximum absorbency. Designed for comfort, these mats provide a cozy surface to stand on, making them perfect for daily use. With a focus on durability, the mats are built to withstand frequent washing and long-term wear, maintaining their quality over time.</p>
-                </div>
-                <!-- Pacific Linen End -->
+                <!-- Course Booking API Start -->
+               
+	                <div id="coursebookingapi" class="col-md-3 col-sm-4 text-center m-1">
+	                     <a href="https://github.com/augustdigiroom/Course-Booking-API-Development" target="_blank" style="text-decoration: none; color: inherit;">
+	                    <img class="img-fluid" src="./images/project1.jpg">
+	                    <h5 id="semi-title">Course Booking API Development</h5>
+	                    <p>This API was developed as part of our bootcamp group activity, using Node.js with the Express.js framework and connected to a MongoDB database. It has been thoroughly tested with the Postman app. The database design follows a NoSQL approach, with data structured in JSON format.</p>
+	                     </a>
+	                </div>
+	           
+                <!-- Course Booking API End -->
 
-                <!-- Whole Parts Start -->
-                <div id="wholeparts" class="col-md-3 col-sm-4 text-center m-2">
-                    <img class="img-fluid" src="./images/project2.jpg">
-                    <h5 id="semi-title">Whole Parts</h5>
-                    <p>Whole Parts is a trusted company specializing in providing high-quality replacement parts for a wide range of appliances. With a focus on customer satisfaction and reliability, Whole Parts caters to the needs of homeowners, repair technicians, and businesses by offering an extensive selection of replacement components for some of the most popular and commonly used appliance brands on the market. </p>
-                </div>
+                <!-- E-Commerce API Start -->
+              
+	                <div id="ecommerceapi" class="col-md-3 col-sm-4 text-center m-1">
+	                	<a href="www.facebook.com" target="_blank" style="text-decoration: none; color: inherit;">
+	                    <img class="img-fluid" src="./images/project2.jpg">
+	                    <h5 id="semi-title">E-Commerce API Development</h5>
+	                    <p>"As part of the Capstone 2 project for the Bootcamp, we worked in pairs to develop an E-Commerce API using Node.js with the Express.js framework. The API was connected to a MongoDB database and tested using Postman. This development included features for user management, product addition, and order processing." </p>
+	                	</a>
+	                </div>
+	           
                 <!-- Whole Parts End-->
 
                 <!--  Bbox Subwoofer Start -->
-                <div id="bboxsubwoofer" class="col-md-3 col-sm-4 text-center m-2">
-                    <img class ="img-fluid" src="./images/project3.jpg">
-                    <h5 id="semi-title">Bbox Subwoofer</h5>
-                    <p>Bbox Subwoofer Speaker is a renowned company specializing in providing high-quality speaker boxes tailored for various car models and audio needs. Based in Chicago, Illinois, Bbox has earned a solid reputation for its commitment to delivering premium-grade products that enhance the in-car audio experience. Whether you're an audiophile seeking unparalleled sound performance or someone looking to upgrade your car's audio system, Bbox is your go-to destination for reliable and innovative speaker box solutions.</p>
-                </div>
+               
+                	<div id="bboxsubwoofer" class="col-md-3 col-sm-4 text-center m-1">
+                		 <a href="https://www.amazon.com/stores/Atrend/page/E7FAF5DA-8937-47C1-A236-7530A4B0C172?ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto" target="_blank" style="text-decoration: none; color: inherit;">
+                		<img class="img-fluid" src="./images/project3.jpg">
+                		<h5 id="semi-title">Bbox Amazon Brand Store</h5>
+                		<p>I was tasked with redesigning the client's Amazon Brand Store to align with A+ Content guidelines, enhancing brand visibility and driving increased sales.</p>
+                		</a>
+                	</div>
+               
                 <!-- Bbox Subwoofer End -->
 
             </div>
+       </div>
 
 	<!-- Project Section End -->
 
 	<!-- Tools Section Start -->
-	<div id="tools" class="container-fluid form-background py-5">
-	  	<h3 id="head-title" class="text-center text-white">Tools Used</h3>
 
-                <div class="d-flex flex-md-column justify-content-center align-items-center">
-                    <div id="tools-1" class="d-md-flex">
-                        <img class="m-2" width="80" src="images/photoshop.png"/>
-                        <img class="m-2" width="80" src="images/illustrator.png"/>
-                        <img class="m-2" width="80" src="images/premiere.png"/>
-                    </div>
-                    <div id="tools-2" class="d-md-flex">
-                        <img class="m-2" width="80" src="images/html5.png"/>
-                        <img class="m-2" width="80" src="images/css3.png"/>
-                        <img class="m-2" width="80" src="images/bootstrap5.png"/>
-                    </div>
+			<div id="tools" class="container-fluid form-background py-5">
+			    <h3 id="head-title" class="text-center text-white">Tools Used</h3>
+			    <div class="row text-center">
+			        <div class="col-md-4">
+			            <img class="m-2" width="80" src="images/html5.png" />
+			            <h5 class="text-center text-white mt-2">HTML 5</h5>
+			        </div>
+			        <div class="col-md-4">
+			            <img class="m-2" width="80" src="images/css3.png" />
+			            <h5 class="text-center text-white mt-2">CSS 3</h5>
+			        </div>
+			        <div class="col-md-4">
+			            <img class="m-2" width="80" src="images/bootstrap5.png" />
+			            <h5 class="text-center text-white mt-2">BOOTSTRAP 5</h5>
+			        </div>
+			        <div class="col-md-4">
+			            <img class="m-2" width="80" src="images/javascript.png" />
+			            <h5 class="text-center text-white mt-2">JAVASCRIPT</h5>
+			        </div>
+			        <div class="col-md-4">
+			            <img class="m-2" width="80" src="images/mongodb.png" />
+			            <h5 class="text-center text-white mt-2">MONGO DB</h5>
+			        </div>
+			        <div class="col-md-4">
+			            <img class="m-2" width="80" src="images/nodejs.png" />
+			            <h5 class="text-center text-white mt-2">NODE JS</h5>
+			        </div>
+			        <div class="col-md-4">
+			            <img class="m-2" width="80" src="images/expressjs.png" />
+			            <h5 class="text-center text-white mt-2">EXPRESS JS</h5>
+			        </div>
+			        <div class="col-md-4">
+			            <img class="m-2" width="80" src="images/reactjs.png" />
+			            <h5 class="text-center text-white mt-2">REACT JS</h5>
+			        </div>
+			        <div class="col-md-4">
+			            <img class="m-2" width="80" src="images/postman.png" />
+			            <h5 class="text-center text-white mt-2">POSTMAN</h5>
+			        </div>
+			        <div class="col-md-4">
+			            <img class="m-2" width="80" src="images/figma.png" />
+			            <h5 class="text-center text-white mt-2">FIGMA</h5>
+			        </div>
+			        <div class="col-md-4">
+			            <img class="m-2" width="80" src="images/git.png" />
+			            <h5 class="text-center text-white mt-2">GIT</h5>
+			        </div>
+			        <div class="col-md-4">
+			            <img class="m-2" width="80" src="images/github.png" />
+			            <h5 class="text-center text-white mt-2">GITHUB</h5>
+			        </div>
+			        <div class="col-md-4">
+			            <img class="m-2" width="80" src="images/trello.png" />
+			            <h5 class="text-center text-white mt-2">TRELLO</h5>
+			        </div>
+			        <div class="col-md-4">
+			            <img class="m-2" width="80" src="images/photoshop.png" />
+			            <h5 class="text-center text-white mt-2">PHOTOSHOP</h5>
+			        </div>
+			        <div class="col-md-4">
+			            <img class="m-2" width="80" src="images/illustrator.png" />
+			            <h5 class="text-center text-white mt-2">ILLUSTRATOR</h5>
+			        </div>
+			        <div class="col-md-4">
+			            <img class="m-2" width="80" src="images/premiere.png" />
+			            <h5 class="text-center text-white mt-2">PREMIERE PRO</h5>
+			        </div>
+			    </div>
+			</div>
+
+	<!-- Tools Section Start -->
+
+
+
+    <!-- About Me Section Start -->
+
+<div id="aboutme" class="container-fluid py-5 text-black">
+    <div class="row d-flex align-items-center justify-content-center py-5 mx-5 text-sm-start">
+        <!-- Image Section -->
+        <div class="col-md-6 d-flex justify-content-center py-2">
+            <img src="./images/august.jpg" class="img-fluid rounded-circle" />
+        </div>
+        
+        <!-- Description Section -->
+        <div class="col-md-6 text-center">
+            <h1 id="head-title" class="mb-3">Augustine Grepo</h1>
+            <h1 id="head-title" class="mb-3">Full Stack Developer</h1>
+            <p>
+                August is a versatile Full Stack Web Developer specializing in the MERN stack. With over 10 years of experience as a Graphic Designer, he has worked with various companies in the BPO, remote, advertising, stationery, and printing industries. In addition to his expertise in web development and design, August has been a video editor and full-time YouTuber for seven years, creating content focused on festivals, parades, transportation, and tourism. His diverse skill set makes him a valuable asset in both the tech and creative industries.
+            </p>
+
+            <!-- Socials Section -->
+            <div class="col-12 my-5">
+                <h2 id="head-title">Socials</h2>
+                <div class="d-flex justify-content-center flex-wrap">
+                    <a href="https://www.linkedin.com/in/augustinegrepo/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" width="50" class="m-2">
+                    </a>
+                    <a href="https://github.com/augustdigiroom" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" width="50" class="m-2">
+                    </a>
+                    <a href="https://www.behance.net/augustinegrepo" target="_blank">
+                        <img src="https://static.wikia.nocookie.net/adobe/images/4/45/B%C4%93hance_icon.jpeg/revision/latest?cb=20191023111224" alt="Behance" width="50" class="m-2">
+                    </a>
+                    <a href="https://www.instagram.com/augustdigiroom/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="50" class="m-2">
+                    </a>
+                    <a href="https://www.facebook.com/augustxdigiroom" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="50" class="m-2">
+                    </a>
                 </div>
+            </div>
+        </div>
     </div>
+</div>
+
+
+     <!-- About Me Section End -->
 
 	<!-- Tools Section End -->
 
-	<!-- Contact Section Start -->
-			<div id="contact" class="row">
-		        <div class="col-12 my-5 text-center">
-		            <h2 id="head-title">Socials</h2>
-		            <a href="https://www.facebook.com" target="_blank">
-		                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="50" class="m-2">
-		            </a>
-		            <a href="https://www.linkedin.com" target="_blank">
-		                <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" width="50" class="m-2">
-		            </a>
-		            <a href="https://www.instagram.com" target="_blank">
-		                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="50" class="m-2">
-		            </a>
-		            <a href="https://github.com" target="_blank">
-		                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" width="50" class="m-2">
-		            </a>
-		        </div>
-			</div>
+	<!-- Download Resume Section Start -->
+	<div id="resume" class="row">
+    <div class="col-12 my-5 text-center">
+        <h2 id="head-title">
+            <a href="./files/Augustine_Grepo_CV.pdf" download="Augustine_Grepo_CV.pdf" 
+               class="cv-link">
+                Download My CV
+            </a>
+        </h2>
+    </div>
+</div>
+
+<!-- CSS -->
+<style>
+    .cv-link {
+        display: inline-block;  /* Ensures border wraps around text */
+        padding: 10px 20px;  /* Adds spacing inside the border */
+        border: 2px solid purple;  /* Purple border */
+        color: black;  /* Text color */
+        text-decoration: none;  /* Removes underline */
+        font-weight: bold;  /* Makes text stand out */
+        border-radius: 8px;  /* Smooth rounded corners */
+        transition: all 0.3s ease-in-out;  /* Smooth hover effect */
+    }
+    
+    .cv-link:hover {
+        background-color: purple;  /* Purple background on hover */
+        color: white;  /* White text on hover */
+    }
+</style>
+
+
 
 	<!-- Contact Section End -->
 
 	<!-- Map and Contact Form Start -->
-	<div class="container-fluid row pb-2">
+<!-- 	<div class="container-fluid row pb-2">
 		<div class="col-md-6">
 			<div class="text-center" id="map">
-	            <h2 id="head-title" class="p-3">Location</h2>
+	            <h2 id="head-title" class="p-3">Location</h2> -->
 	            <!-- Google Maps Embed (any location, SFW) -->
-	            <iframe 
+	   <!--          <iframe 
 	                width="100%" 
 	                height="450" 
 	                frameborder="0"
 	                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30917.684215408583!2d120.85762883838866!3d14.386152917414366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33962ca4c251108d%3A0x1e8346701acba513!2sGeneral%20Trias%20Town%20Plaza!5e0!3m2!1sen!2sph!4v1736855868291!5m2!1sen!2sph" allowfullscreen>
 	            </iframe>
 	        </div>
-	    </div>
+	    </div> -->
 		<!-- Map End -->
 
 		<!-- Contact Form Start -->
-		<div class="col-md-6 text-center" id="contact">
+	<!-- 	<div class="col-md-6 text-center" id="contact">
 			<h2 id="head-title" class="py-3">Contact Me</h2>		
-			<div class="mx-auto">
+			<div class="mx-auto"> -->
 				<!-- Form -->
-				<form id="form-col" class="form-background description p-3 rounded">
+	<!-- 			<form id="form-col" class="form-background description p-3 rounded">
 					<div class="form-group text-white">
 						<label for="name" class="form-label">Name</label>
 						<input type="text" class="form-control" id="name" placeholder="Enter your name" required>
@@ -178,19 +327,19 @@
 					<div class="form-group text-white">
 						<label for="contact" class="form-label">Contact Number</label>
 						<input type="number" class="form-control" id="exampleInputPassword2" placeholder="+639000000000">
-					</div>
+					</div> -->
 
 					<!-- Message Textarea -->
-					<div class="form-group text-white">
+	<!-- 				<div class="form-group text-white">
 						<label for="message" class="form-label" >Message</label>
 						<textarea class="form-control" id="message" rows="7"></textarea>
-					</div>
+					</div> -->
 					<!-- Submit Button -->
-					<button type="button" class="btn btn-green my-4" data-bs-toggle="modal" data-bs-target="#modalDiv">Submit
+<!-- 					<button type="button" class="btn btn-green my-4" data-bs-toggle="modal" data-bs-target="#modalDiv">Submit
 					</button>
 				</form>
 			</div>	
-		</div>
+		</div> -->
 	<!-- end of 2 columns -->
 	</div>
 
