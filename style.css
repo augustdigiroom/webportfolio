@@ -1,15 +1,19 @@
-/*CSS Reset*/
+/* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
 body {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background-color: white;
 }
-     
+
+/* Navigation */
 .nav-color {
-    background:white;
+    background: white;
 }
 
 .navbar-brand {
@@ -17,47 +21,120 @@ body {
     font-weight: bold;
 }
 
-
-.rounded-photo {
-    border-radius: 50%; 
-    width: 100px;  
-    height: 100px;  
-    object-fit: cover; 
-}
-
+/* Headings & Text */
 #head-title {
-    font-family: Poppins;
     font-size: 44px;
     font-weight: 600;
-    line-height: 40px;
-    
-    color:#92278F;
+    line-height: 1.2;
+    color: #92278F;
 }
 
 .description {
-    font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
-    line-height: 22px;
-    
-    color:##0c0d0d;
+    line-height: 1.5;
+    color: white 
 }
 
 #semi-title {
-    font-family: Poppins;
     font-size: 36px;
     font-weight: 600;
     font-style: italic;
-    line-height: 40px;
-    
-    color:#92278F;
+    line-height: 1.2;
+    color: #92278F;
 }
 
+/* Rounded Image */
+.rounded-photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+/* Form Section */
 .form-background {
-    background-color: black;
+    background-color: #000;
+    padding: 2rem;
+    border-radius: 8px;
 }
 
+/* Buttons */
 .btn-green {
-  color: #046b27 ;
-  background-color: #fff;
-  border-color: #fff;
+    color: #046b27;
+    background-color: #fff;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.btn-green:hover {
+    background-color: #046b27;
+    color: #fff;
+}
+
+/* Animated Gradient Background */
+.animated-bg {
+    background: linear-gradient(135deg, #ff00cc, #3333ff);
+    background-size: 600% 600%;
+    animation: gradientMove 15s ease infinite;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Ensure Text Layer Stays on Top */
+#landing {
+    position: relative;
+    z-index: 2;
+}
+
+.tool-item {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 3px solid;
+  border-image: linear-gradient(135deg, fuchsia, darkblue) 1;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: transparent;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.tool-item:hover {
+  background: linear-gradient(135deg, fuchsia, darkblue);
+  color: white;
+  transform: scale(1.05);
+}
+
+
+#socials a img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
+.social-icon {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border-radius: 8px; /* optional: gives smoother look */
+}
+
+.social-icon:hover {
+    box-shadow: 0 0 25px 10px rgba(255, 102, 204, 0.8); /* lighter pink glow, bolder */
+    transform: scale(1.1);
+}
+
+.footer-text {
+    text-align: center;
+    color: black;
+}
